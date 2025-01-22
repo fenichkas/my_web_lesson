@@ -1,3 +1,21 @@
 body {
-    background-color: red;
+        background-color: red;
+    }
+
+div{
+        background-color: chartreuse;
+        height: 30px;
+        width: 100px;
+    }
+
+span{
+        background-color: brown;
+    }
+
+.to_inline{
+        display: inline;
+    }
+
+#teg_p{
+    font-size: 45px;
 }
