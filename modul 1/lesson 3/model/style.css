@@ -1,0 +1,17 @@
+.model{
+    background-color: coral;
+
+    /* внутренние отступы */
+    padding: 100px;
+    padding-top: 20px;
+
+    /* рамочка */
+    border-style: dotted;
+    border-width: 31px;
+
+    /* цвет рамочки */
+    border-color: rgb(210, 51, 30);
+    
+    /* внешние отступы */
+    margin: 50px;
+}
