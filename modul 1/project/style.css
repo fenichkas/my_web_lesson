@@ -1,0 +1,22 @@
+.logo{
+    width: 75px;
+}
+
+.header{
+    background-color: slategrey;
+    padding: 8px 0;
+}
+
+* {
+    margin: 0;
+}
+
+.menu{
+    display: inline;
+}
+
+.menu__link{
+    margin-right: 8px;
+    color: aquamarine;
+    text-decoration: none;
+}
