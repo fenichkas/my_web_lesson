@@ -1,0 +1,56 @@
+.container {
+    background-color: pink;
+    margin-top: 100px;
+}
+
+.box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;   
+    border: 6px solid;
+    font-size: 30px;
+    text-align: center;
+}
+
+.demo{
+    background-color: blueviolet;
+    top: 100px;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    /* static - позиционирование по-умолчанию */
+    /* МЕНЯТЬ ПОЛОЖЕНИЕ НЕЛЬЗЯ
+        top: 100px;
+        position: static; */
+    /* relative- относительное позиционирование
+    МЕСТО ПОД ЭЛЕМЕНТ СОХРОНЯЕТСЯ!!!
+    position: relative;
+    top: 150px; - двигает элемент относительно  его верхней границы на 150px вниз
+    left: 20px;
+     */
+     /* absolute-абсолютное позиционирование
+    
+        МЕСТО ПОД ЭЛЕМЕНТ НЕ!!  СОХРОНЯЕТСЯ!!!
+     
+         ДЛЯ ПОЗИЦИОНИРУЕМОГО ЭЛЕМЕНТА!!
+            right:0px;
+            top: 50px;
+            position: absolute;
+
+    ДЛЯ КОНТЕЙНЕРОВ
+        position: static;
+    ТОГДА
+        элемент размещается в правом верхнем углу документа.
+
+        ДЛЯ ПОЗИЦИОНИРУЕМОГО ЭЛЕМЕНТА!!
+            right:0px;
+            top: 50px;
+            position: absolute;
+
+    ДЛЯ КОНТЕЙНЕРОВ
+        position: relative < или что то еще кроме static
+    ТОГДА
+        элемент размещается в правом верхнем углу ЭТОГО КОНТЕЙНЕРА <
+     */
+    
+}
