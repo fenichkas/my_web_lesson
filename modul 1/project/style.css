@@ -8,6 +8,8 @@
     position: sticky;
     top: 0px;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 * {
@@ -29,6 +31,9 @@
     font-size: 43px;
     padding: 80px 0;
     position: relative;
+    background-color: rgba(182, 184, 224, 0.987);
+    background-image: url(img/молнии.webp);
+    color: antiquewhite;
 }
 .planetka{
     height: 100px;
@@ -54,31 +59,4 @@ body{
     background-color: rgb(67, 150, 205);
     padding:80px 0px ;
     position: relative;
-}
-
-.header_2{
-    margin-top: 50px;
-    background-color: rgb(105, 166, 226);
-    background-image: url(img/sky.jpg);
-    padding: 8px 0;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-}
-
-.greeting_2{
-    background-color: rgba(182, 184, 224, 0.987);
-    background-image: url(img/молнии.webp);
-    font-size: 43px;
-    color: antiquewhite;
-    padding: 80px 0;
-    position: relative;
-}
-
-.description_2{
-    background-image: url(img/молнии.webp);
-    color: antiquewhite;
-    padding:100px 0px ;
-    position: relative;
-
 }

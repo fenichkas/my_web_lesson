@@ -1,0 +1,22 @@
+.container {
+    background-color: pink;
+    margin-top: 100px;
+    height: 400px;
+    /* ДЕЛАЕМ ЭЛЕМЕНТ- ФЛЕКС КОНТЕИНЕРОМ */
+    display: flex;
+    /* МЕНЯЕМ НАПРАВЛЕНИЕ ГЛАВНОЙ ОСИ */
+    flex-direction: row;
+    /* ВЫРАВНИВАЕТ ЭЛЕМЕНТЫ ВДОЛЬ  ГЛАВНОЙ ОСИ!!!!!!!!!!!!!!!!!! */
+    justify-content: space-around;
+    /* ВЫРАВНИВАЕТ ЭЛЕМЕНТЫ ВДОЛЬ ПОБОЧНОЙ ОСИ!!!!!!!!!!!! */
+    align-items: center;
+}
+
+.box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;   
+    border: 6px solid;
+    font-size: 30px;
+    text-align: center;
+}
