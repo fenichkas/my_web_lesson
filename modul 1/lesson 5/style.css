@@ -10,6 +10,7 @@
     justify-content: space-around;
     /* ВЫРАВНИВАЕТ ЭЛЕМЕНТЫ ВДОЛЬ ПОБОЧНОЙ ОСИ!!!!!!!!!!!! */
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .box{
