@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Pacifico&display=swap');
+
 .logo{
     width: 75px;
 }
@@ -8,6 +10,9 @@
     position: sticky;
     top: 0px;
     z-index: 1;
+}
+
+.header__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,8 +35,6 @@
 .greeting{
     background-color: deeppink;
     font-size: 43px;
-    padding: 80px 0;
-    position: relative;
     background-color: rgba(182, 184, 224, 0.987);
     background-image: url(img/молнии.webp);
     color: antiquewhite;
@@ -58,8 +61,6 @@ body{
 
 .description{
     background-color: rgb(32, 36, 39);
-    padding:100px 0px ;
-    position: relative;
     color: antiquewhite;
 }
 
@@ -85,6 +86,31 @@ body{
 .card-container{
     display: flex;
     flex-wrap: wrap;
-  align-content: flex-start;
+    justify-content: space-around;
+    gap: 30px;
     
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.greeting__inner{
+    padding: 80px 0;
+    position: relative;
+}
+
+.description__inner{
+    padding:100px 0px ;
+    position: relative;
+}
+
+
+*{
+    font-family: Comfortaa;
+}
+
+h1{
+    font-family: Pacifico;
 }
