@@ -5,7 +5,7 @@
 }
 
 .header{
-    background-color: slategrey;
+    background-color: #2D336B;
     padding: 8px 0;
     position: sticky;
     top: 0px;
@@ -20,6 +20,7 @@
 
 * {
     margin: 0;
+    color: #2D336B;
 }
 
 .menu{
@@ -29,7 +30,7 @@
 .menu__link{
     transition: 1s;
     margin-right: 8px;
-    color: aquamarine;
+    color: #FFF2F2;
     text-decoration: none;
 }
 
@@ -49,10 +50,7 @@
 
 }
 
-body{
-    min-height: 300vh;
 
-}
 .jupiter{
     width: 90px;
     left: 0px;
@@ -61,7 +59,6 @@ body{
 }
 
 .description{
-    background-color: rgb(32, 36, 39);
     color: antiquewhite;
 }
 
@@ -74,6 +71,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 20px 10px;
+    background-color: #FFF2F2;
 
 }
 
@@ -84,6 +82,7 @@ body{
 .card_info{
     margin-top: 10px;
     text-align: center;
+    color: #2D336B;
 }
 
 .card-container{
@@ -126,25 +125,34 @@ h1{
     transform: scale(120%);
 }
 
-.insagram_icon{
-    width: 15%;
-}
+.icon{
+    width: 60px;
 
-.telegram_icon{
-    width: 15%;
-}
-
-.whatsapp_icon{
-    width: 15%;
 }
 
 .icons{
-    
+    margin-top: 20px;
 }
 
 .contacts-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-        gap: 30px;}
-    
+        gap: 30px;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.accent{
+    color: #2D336B;
+}
+
+.contacts, .about{
+    padding: 20px 0px;
+}
+
+body{
+    background-color: #A9B5DF;
+}
