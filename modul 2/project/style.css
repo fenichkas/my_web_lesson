@@ -28,6 +28,7 @@ body{
     padding: 20px 25px;
     display: block;
     border-radius: 10px;
+    border: none;
 }
 
 .header__inner{
@@ -50,17 +51,55 @@ body{
 .mars{
     font-weight: 600;
     font-size: 80px;
-    line-height: 100%;
-    letter-spacing: 0%;
 }
 
-span{
-    font-weight: 600;
-    font-size: 80px;
+.akcent{
     color: #DE8559;
 }
 
 .join{
     font-weight: 300;
     font-size: 30px;
-}sssss
+}
+
+section{
+    min-height: 100vh;
+}
+
+.mars__inner{
+    margin-top: 20vh;
+    margin-left: 20vw;
+}
+
+.form-title{
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form_wraper{
+    max-width: 600px;
+}
+
+input{
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.form__button{
+    margin-top: 20px;
+}
+
+/* .mars_img{
+    width: 1545px;
+    height: 1565px;
+    top: 300px;
+    left: -815px;
+} */
