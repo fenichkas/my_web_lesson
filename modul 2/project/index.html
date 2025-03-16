@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проект 2</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="style.css">
+    
+
 </head>
 <body>
     <header>
@@ -21,7 +28,7 @@
         </div>
     </header>
     <main>
-        <section>
+        <section id="welcome">
             <div class="container">
                 <div class="mars__inner">
                     <h1 class="mars">На <span class="akcent">Марсе</span> классно</h1>
@@ -47,7 +54,75 @@
 
         </section>
         <section></section>
+
+        <section>
+            <div class="container">
+                <div class="tariffs__inner">
+                    <h1 class="tariffs_title">Тарифы</h1>
+                    <div class="tariffs_container">
+                        <img src="img/Rectangle 7.png" alt="" class="Rectangle">
+                        <img src="img/полукруг).png" alt="" class="semicircle">
+                        <h1 class="economy">Эконом</h1>
+                        <p class="for">Для тех кому важнее <span class="where">куда</span></p>
+                        <p>Вы полетите на многоместном шаттле</p>
+                        <h1 class="dollar">XXX $</h1>
+                    </div>
+
+                    <div class="tariffs_container">
+                        <img src="img/Rectangle 7.png" alt="" class="Rectangle">
+                        <img src="img/полукруг).png" alt="" class="semicircle">
+                        <h1 class="buisness">Бизнес</h1>
+                        <p class="for">Для тех кому важен <span class="where">комфорт</span></p>
+                        <p>Шаттл рассчитан на 10 человек</p>
+                        <h1 class="dollar">YYY $</h1>
+                    </div>
+
+                    <div class="tariffs_container">
+                        <img src="img/Rectangle 7.png" alt="" class="Rectangle">
+                        <img src="img/полукруг).png" alt="" class="semicircle">
+                        <h1 class="VIP">VIP</h1>
+                        <p class="for">Для тех кому важно <span class="where">уединение</span></p>
+                        <p>Приватный шаттл, где только вы и космос</p>
+                        <h1 class="dollar">ZZZ $</h1>
+                    </div>
+
+                    <button class="button">Найти тур</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="">
+            <div class="container">
+                <h2 class="section_title">Фотогалерея</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/photo1.png" alt="">1</div>
+                      <div class="swiper-slide"><img src="img/photo2.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/photo3.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/photo4.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/photo5.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/photo6.png" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+            </div>
+            
+
+        </section>
+
     </main>
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
 </body>
 </html>
