@@ -147,22 +147,17 @@ input{
 }
 
 .tariffs_container{
-
+    border: 2px solid #DE8559;
+    /* border-top-width: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 300px;
 }
 
 .semicircle{
-    width: 300px;
-    height: 150px;
-    top: 2763px;
-    left: 264px;
-}
-
-.Rectangle{
-    width: 300px;
-    height: 435px;
-    top: 2485px;
-    left: 265px;
-    border: 2px;
+    width: 100%;
 }
 
 .economy{
@@ -185,4 +180,37 @@ input{
 .dollar{
     font-weight: 700;
     font-size: 30px;
+}
+
+.tariffs_wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 100vh;
+
+}
+
+.background_layer{
+    height: 100%;
+
+}
+
+.foreground_layer{
+    height: 100%;
+}
+
+.background_video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tarifa{
+    margin: 70px;
+}
+
+.center{
+    text-align: center;
 }
