@@ -177,10 +177,6 @@ input{
     color: #DE8559;
 }
 
-.dollar{
-    font-weight: 700;
-    font-size: 30px;
-}
 
 .tariffs_wraper{
     display: flex;
@@ -189,6 +185,7 @@ input{
 
 footer{
     height: 100vh;
+    position: relative;
 
 }
 
@@ -199,6 +196,10 @@ footer{
 
 .foreground_layer{
     height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .background_video{
@@ -207,10 +208,55 @@ footer{
     object-fit: cover;
 }
 
-.tarifa{
-    margin: 70px;
+.tariffs_btn{
+    margin: 85px auto 0px;
 }
 
 .center{
+    text-align: center;
+}
+
+.tariff_title{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tariff_info{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.spacing{
+    padding: 24px 20px 0px;
+}
+
+.footer_wraper{
+    max-width: 700px;
+    margin: 80px 570px 0px 570px;
+}
+
+.write{
+    margin: 50px;
+    text-align: center;
+}
+
+.placeholder_1{
+    width: 490px;
+    height: 30px;
+    align-items: center;
+}
+
+.cuations{
     text-align: center;
 }

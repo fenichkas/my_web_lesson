@@ -61,35 +61,37 @@
         <section>
             <div class="container">
                 <div class="tariffs__inner">
-                    <h1 class="tariffs_title">Тарифы</h1>
+                    <h1 class="section_title">Тарифы</h1>
                     <div class="tariffs_wraper">
                         <div class="tariffs_container">
-                            <h1 class="economy center">Эконом</h1>
-                            <p class="for center">Для тех кому важнее <span class="where">куда</span></p>
-                            <p>Вы полетите на многоместном шаттле</p>
-                            <h1 class="dollar center">XXX $</h1>
+                            <div class="spacing">
+                                <h1 class="tariff_title">Эконом</h1>
+                                <p class="tariff_info">Для тех кому важнее <span class="where">куда</span></p>
+                                <p class="tariff_info">Вы полетите на многоместном шаттле</p>
+                                <h1 class="price">XXX $</h1>
+                            </div>
                             <img src="img/полукруг).png" alt="" class="semicircle">
                         </div>
     
                         <div class="tariffs_container">
-                            <h1 class="buisness center">Бизнес</h1>
-                            <p class="for center">Для тех кому важен <span class="where">комфорт</span></p>
-                            <p>Шаттл рассчитан на 10 человек</p>
-                            <h1 class="dollar center">YYY $</h1>
+                            <h1 class="tariff_title">Бизнес</h1>
+                            <p class="tariff_info">Для тех кому важен <span class="where">комфорт</span></p>
+                            <p class="tariff_info">Шаттл рассчитан на 10 человек</p>
+                            <h1 class="price">YYY $</h1>
                             <img src="img/полукруг).png" alt="" class="semicircle">
                         </div>
     
                         <div class="tariffs_container">
-                            <h1 class="VIP center">VIP</h1>
-                            <p class="for center">Для тех кому важно <span class="where">уединение</span></p>
-                            <p>Приватный шаттл, где только вы и космос</p>
-                            <h1 class="dollar center">ZZZ $</h1>
+                            <h1 class="tariff_title">VIP</h1>
+                            <p class="tariff_info">Для тех кому важно <span class="where">уединение</span></p>
+                            <p class="tariff_info">Приватный шаттл, где только вы и космос</p>
+                            <h1 class="price">ZZZ $</h1>
                             <img src="img/полукруг).png" alt="" class="semicircle">
                         </div>
     
                     </div>    
                     
-                    <button class="button tarifa">Найти тур</button>
+                    <button class="button tariffs_btn">Найти тур</button>
                 </div>
             </div>
         </section>
@@ -117,17 +119,19 @@
     </main>
     <footer>
         <div class="background_layer">
-            <video src="img/racket.mp4" muted autoplay class="background_video"></video>
+            <video src="img/racket.mp4" muted autoplay loop class="background_video"></video>
         </div>
         <div class="foreground_layer">
-            <h1>Остались вопросы?</h1>
-            <p>Напиши нам и мы сможем подобрать 
+            <div class="footer_wraper">
+                <h1 class="section_title cuations">Остались вопросы?</h1>
+                <p class="join write">Напиши нам и мы сможем подобрать 
                 оптимальные условия поездки</p>
                 <form class="form">
-                    <input type="date" placeholder="Имя">
-                    <input type="tel" placeholder="Телефон">
-                    <button class="button form__button">Найти тур</button>
+                    <input type="text" placeholder="Имя" class="placeholder_1">
+                    <input type="tel" placeholder="Телефон" class="placeholder_1">
+                    <button class="button tariffs_btn">Найти тур</button>
                 </form>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
