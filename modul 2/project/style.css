@@ -194,6 +194,7 @@ footer{
 
 .background_layer{
     height: 100%;
+    position: relative;
 
 }
 
@@ -271,4 +272,12 @@ footer{
     font-weight: 600;
     font-size: 70px;
     text-align: center;
+}
+
+.background_layer::before{
+    content: ""; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
 }
