@@ -278,6 +278,14 @@ footer{
     content: ""; 
     position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.spann{
+    font-weight: 700;
+    font-size: 30px;
+    color: #DE8559;
 }
