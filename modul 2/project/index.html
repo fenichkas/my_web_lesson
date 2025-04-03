@@ -23,9 +23,9 @@
             <div class="header__inner">
                 <h1 class="logo">MARS</h1>
                 <nav class="menu">
-                    <a href="" class="menu__link">Тарифы</a>
-                    <a href="" class="menu__link">Фотогалерея</a>
-                    <a href="" class="menu__link">Задать вопрос</a>
+                    <a href="#tariffs" class="menu__link">Тарифы</a>
+                    <a href="#gallery" class="menu__link">Фотогалерея</a>
+                    <a href="#quations" class="menu__link">Задать вопрос</a>
                 </nav>
                 <a href="" class="button" onclick="send()">Забронировать</a>
             </div>
@@ -48,8 +48,8 @@
                 <div class="form_wraper">
                     <h1 class="form-title">Выбери дату и забронируй <span class="akcent">путешествие</span></h1>
                     <form class="form">
-                        <input type="date" placeholder="Имя">
-                        <input type="text" placeholder="Дата">
+                        <input type="date" placeholder="Дата">
+                        <input type="text" placeholder="Имя">
                         <input type="tel" placeholder="Телефон">
                         <button class="button form__button">Найти тур</button>
                     </form>
@@ -58,7 +58,7 @@
 
         </section>
 
-        <section>
+        <section id="tariffs">
             <div class="container">
                 <div class="tariffs__inner">
                     <h1 class="section_title">Тарифы</h1>
@@ -100,12 +100,12 @@
             </div>
         </section>
 
-        <section id="">
+        <section id="gallery">
             <div class="container">
                 <h2 class="section_title">Фотогалерея</h2>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide"><img src="img/photo1.png" alt="">1</div>
+                      <div class="swiper-slide"><img src="img/photo1.png" alt=""></div>
                       <div class="swiper-slide"><img src="img/photo2.png" alt=""></div>
                       <div class="swiper-slide"><img src="img/photo3.png" alt=""></div>
                       <div class="swiper-slide"><img src="img/photo4.png" alt=""></div>
@@ -139,7 +139,7 @@
         </section>
 
     </main>
-    <footer>
+    <footer id="quations">
         <div class="background_layer">
             <video src="img/racket.mp4" muted autoplay loop class="background_video"></video>
         </div>
