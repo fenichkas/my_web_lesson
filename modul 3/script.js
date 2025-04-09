@@ -43,7 +43,7 @@
 
 // console.log({ number, negativeNumber, bigNumber, text, isTrue, isFalse, emptyvalue, undefinedValue, obj, array });
 
-let user = prompt("Введи свой возраст")
+// let user = prompt("Введи свой возраст")
 
 // if(user === "pass981"){
 //     alert("Вход выполнен!")
@@ -65,14 +65,73 @@ let user = prompt("Введи свой возраст")
 //     alert("Нет доступа!")
 // }
 
-if(user < 18){
-    alert("Привет, как дела?")
+// if(user < 18){
+//     alert("Привет, как дела?")
+// }
+
+// else if(user <= 35){
+//     alert("Добрый день")
+// }
+
+// else if(user > 35){
+//     alert("Доброго времени суток")
+// }
+
+if (NaN < 5){
+    false
 }
 
-else if(user <= 35){
-    alert("Добрый день")
+if (NaN === "5"){
+    false
 }
 
-else if(user > 35){
-    alert("Доброго времени суток")
+if (-5 === "5"){
+    false
 }
+
+if (undefined <= null){
+    false
+}
+
+if (undefined === null){
+    false
+}
+
+
+let a = 1;
+
+if (a === 0) {
+    console.log('Верно');}
+
+ else {
+    console.log('Неверно');}
+
+
+let b = '1';
+
+if (b === '1') {
+    console.log('Верно');} 
+
+else {
+    console.log('Неверно');}
+
+
+let test = true; 
+
+if (test === true) {
+    console.log('Верно');}
+
+else {
+    console.log('Неверно');}
+
+
+let c = 1;
+
+if (c <= 0) {
+    console.log('Верно');}
+    
+else {
+    console.log('Неверно');}
+
+
+console.log();
