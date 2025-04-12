@@ -77,61 +77,80 @@
 //     alert("Доброго времени суток")
 // }
 
-if (NaN < 5){
-    false
-}
+// console.log(NaN < 5)
 
-if (NaN === "5"){
-    false
-}
+// console.log(NaN)
 
-if (-5 === "5"){
-    false
-}
+// if (-5 === "5"){
+//     false
+// }
 
-if (undefined <= null){
-    false
-}
+// if (undefined <= null){
+//     false
+// }
 
-if (undefined === null){
-    false
-}
+// if (undefined === null){
+//     false
+// }
 
 
-let a = 1;
+// let a = 1;
 
-if (a === 0) {
-    console.log('Верно');}
+// if (a === 0) {
+//     console.log('Верно');
+// }
 
- else {
-    console.log('Неверно');}
-
-
-let b = '1';
-
-if (b === '1') {
-    console.log('Верно');} 
-
-else {
-    console.log('Неверно');}
+//  else {
+//     console.log('Неверно');
+// }
 
 
-let test = true; 
+// let b = '1';
 
-if (test === true) {
-    console.log('Верно');}
+// if (b === '1') {
+//     console.log('Верно');
+// } 
 
-else {
-    console.log('Неверно');}
+// else {
+//     console.log('Неверно');
+// }
 
 
-let c = 1;
+// let test = true; 
 
-if (c <= 0) {
-    console.log('Верно');}
+// if (test === true) {
+//     console.log('Верно');
+// }
+
+// else {
+//     console.log('Неверно');
+// }
+
+
+// let c = 1;
+
+// if (c <= 0) {
+//     console.log('Верно');
+// }
     
-else {
-    console.log('Неверно');}
+// else {
+//     console.log('Неверно');
+// }
 
 
-console.log();
+// console.log();
+
+// let time = 13;
+
+// if (time<6 || time > 21){
+//     console.log("Спокойной ночи")
+// }
+
+// else if (time === 13){
+//     console.log("Пора обедать")
+// }
+
+// else {
+//     console.log("Планов нет")
+// }
+
