@@ -154,3 +154,50 @@
 //     console.log("Планов нет")
 // }
 
+
+// let color = "greenа"
+
+// switch(color){
+//     case"green":
+//     alert("Можно ехать")
+//     break;
+
+//     case"yellow":
+//     alert("Притормози!")
+//     break;
+
+//     case"red":
+//     alert("Остановись!")
+//     break;
+
+//     default:
+//         alert("Светофор сломан")
+// }
+
+// function SayHello(name){
+//     alert(`Привет${name}`)
+//     alert(`Hello${name}`)
+//     alert(`Bonjour${name}`)
+// }
+
+// SayHello("Anja")
+// SayHello("Dima")
+
+
+// let Say_Something = "Покаr"
+
+// switch(Say_Something){
+//     case"Привет":
+//     alert("И тебе привет")
+//     break;
+
+//     case"Пока":
+//     alert("И тебе пока")
+//     break;
+
+//     default:
+//         alert("Я тебя не понял")
+// }
+
+
+
