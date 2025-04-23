@@ -29,8 +29,8 @@
 // console.log(GetRandom(80))
 
 
-console.log("Привет всем! Желаю вам хорошего дня!".slice(13))
+// console.log("Привет всем! Желаю вам хорошего дня!".slice(13))
 
-console.log("Здравствуйте".startsWith("з"))
+// console.log("Здравствуйте".startsWith("з"))
 
-console.log("   Привет  ".trim())
+// console.log("   Привет  ".trim())

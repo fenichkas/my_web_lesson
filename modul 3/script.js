@@ -205,4 +205,21 @@
 
 // alert(text.trim().toUpperCase())
 
+// let number = 1
+
+// while(number<=50){
+//     console.log(number)
+//     number++
+// }
+
+// for(let num = 1; num<=50; num++){
+//     console.log(num)
+// }
+
+let password = prompt("Введите пароль")
+
+while(password!=="user12345"){
+    alert("Пароль неверный!")
+    password = prompt("Попробуйте снова.")
+}
 
