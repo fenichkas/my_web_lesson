@@ -201,3 +201,8 @@
 
 
 
+// let text = prompt("Введите текст!")
+
+// alert(text.trim().toUpperCase())
+
+

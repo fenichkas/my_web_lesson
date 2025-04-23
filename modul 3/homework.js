@@ -18,10 +18,19 @@
 // alert(value); //10, value, 30, value
 
 
-function GetRandom(get){
-    console.log(getRandomInt(0, 10));
-    console.log((get).toString());
-    get.toFixed(2);
-}
+// function GetRandom(lenght){
+//     const number = Math.random() * 10
+//     const text = number.toFixed(lenght);
+//     return text;
+// }
 
-GetRandom()
+// let x = GetRandom(4)
+// console.log(x)
+// console.log(GetRandom(80))
+
+
+console.log("Привет всем! Желаю вам хорошего дня!".slice(13))
+
+console.log("Здравствуйте".startsWith("з"))
+
+console.log("   Привет  ".trim())
