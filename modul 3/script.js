@@ -216,10 +216,34 @@
 //     console.log(num)
 // }
 
-let password = prompt("Введите пароль")
+// let password = prompt("Введите пароль")
 
-while(password!=="user12345"){
-    alert("Пароль неверный!")
-    password = prompt("Попробуйте снова.")
-}
+// while(password!=="user12345"){
+//     alert("Пароль неверный!")
+//     password = prompt("Попробуйте снова.")
+// }
 
+// let i = 0
+
+// while(i > -3){
+//     alert(`Number ${i}!`)
+//     i--
+// // }
+
+
+// let games = ["Minecraft", "Roblox", "Fortnite"];
+
+// for(let game of games)
+//     alert(`games${game}`)
+
+
+
+const minus = document.querySelector(".counter_minus")
+
+const plus =document.querySelector(".counter_plus")
+
+const value = document.querySelector(".counter_value")
+
+console.log(`было: ${value.textContent}­`)
+value.textContent = 42
+console.log(`Стало: ${value.textContent}­`)
