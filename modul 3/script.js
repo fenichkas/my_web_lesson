@@ -247,3 +247,17 @@ const value = document.querySelector(".counter_value")
 console.log(`было: ${value.textContent}­`)
 value.textContent = 42
 console.log(`Стало: ${value.textContent}­`)
+
+
+
+
+let value = 0
+
+function increase(){
+    value += 1
+    console.log(value)
+}
+
+
+increase()
+increase()
