@@ -1,0 +1,28 @@
+.card_img{
+    max-width: 300px;
+    
+}
+
+.card{
+    border: black solid 3px;
+    display: flex;
+    font-family: Arial;
+}
+
+.card_left, .card_right{
+    flex-grow: 1;
+}
+
+.card_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding:10px 20px;
+    
+}
